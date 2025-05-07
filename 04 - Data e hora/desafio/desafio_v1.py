@@ -35,6 +35,7 @@ class Cliente:
     def realizar_transacao(self, conta, transacao):
         # TODO: validar o número de transações e invalidar a operação se for necessário
         # print("\n@@@ Você excedeu o número de transações permitidas para hoje! @@@")
+        
         transacao.registrar(conta)
 
     def adicionar_conta(self, conta):
