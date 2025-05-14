@@ -9,7 +9,7 @@ class Cachorro:
         print("Removendo a instância da classe.")
 
     def falar(self):
-        print("auau")
+        print("raurau")
 
 
 def criar_cachorro():
