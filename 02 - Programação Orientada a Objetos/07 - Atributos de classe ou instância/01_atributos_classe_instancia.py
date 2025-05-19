@@ -14,10 +14,10 @@ def mostrar_valores(*objs):
         print(obj)
 
 
-aluno_1 = Estudante("Guilherme", 1)
-aluno_2 = Estudante("Giovanna", 2)
+aluno_1 = Estudante("Guilherme", 45)
+aluno_2 = Estudante("Giovanna", 20)
 mostrar_valores(aluno_1, aluno_2)
 
-Estudante.escola = "Python"
-aluno_3 = Estudante("Chappie", 3)
+Estudante.escola = "UFBA"
+aluno_3 = Estudante("Chappie", 30)
 mostrar_valores(aluno_1, aluno_2, aluno_3)
